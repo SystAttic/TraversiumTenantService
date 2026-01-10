@@ -10,7 +10,7 @@
     </parent>
     <groupId>traversium</groupId>
     <artifactId>TenantService</artifactId>
-    <version>1.1.0-SNAPSHOT</version>
+    <version>1.1.0</version>
     <name>TenantService</name>
     <description>Service for managing tenants and tenant admin accounts</description>
     <properties>
