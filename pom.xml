@@ -9,9 +9,9 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>traversium</groupId>
-    <artifactId>TraversiumTenantService</artifactId>
-    <version>1.3.0-SNAPSHOT</version>
-    <name>TraversiumTenantService</name>
+    <artifactId>TenantService</artifactId>
+    <version>1.1.0</version>
+    <name>TenantService</name>
     <description>Service for managing tenants and tenant admin accounts</description>
     <properties>
         <java.version>17</java.version>
