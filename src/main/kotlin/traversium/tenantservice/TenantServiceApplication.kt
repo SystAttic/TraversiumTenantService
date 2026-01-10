@@ -5,8 +5,9 @@ import org.springframework.boot.runApplication
 import org.springframework.context.annotation.Import
 import traversium.commonmultitenancy.FlywayTenantMigration
 import traversium.commonmultitenancy.MultiTenantAutoConfiguration
+import org.springframework.boot.autoconfigure.kafka.KafkaAutoConfiguration
 
-@SpringBootApplication
+@SpringBootApplication(exclude = [KafkaAutoConfiguration::class])
 @Import(MultiTenantAutoConfiguration::class, FlywayTenantMigration::class)
 class TenantServiceApplication
 
